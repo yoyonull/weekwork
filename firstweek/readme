@@ -6,6 +6,20 @@ service --由main文件暂时调用
 models  --由service 文件调用处理
 
 
+###sql文件
+
+CREATE TABLE `info` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) DEFAULT '',
+  `age` int(11) DEFAULT '10',
+  `sex` tinyint(4) DEFAULT '1',
+  `phone` varchar(40) DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=32 DEFAULT CHARSET=utf8;
+
+
 #问题
 1.定义在main下的全局DB,在models 文件夹下不能使用
+
+
 
