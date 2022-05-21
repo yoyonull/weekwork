@@ -1,0 +1,11 @@
+
+#运行
+进入 main文件夹 go run *.go
+
+service --由main文件暂时调用
+models  --由service 文件调用处理
+
+
+#问题
+1.定义在main下的全局DB,在models 文件夹下不能使用
+
