@@ -39,7 +39,8 @@ func QueryOne(singleId int) (string, error) {
 	if err != nil {
 		if err == sql.ErrNoRows {
 			//没有行，但也没有错误发生
-			err = errors.Wrap(err, "sql: no rows in result set")
+			//todo 底层已经返回，放开会多一层
+			//err = errors.Wrap(err, "sql: no rows in result set")
 		} else {
 			err = errors.Wrap(err, "sql query has wrong")
 		}

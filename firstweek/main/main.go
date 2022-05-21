@@ -1,13 +1,9 @@
 package main
 
 import (
-	"database/sql"
-	"fmt"
-	"weekwork/firstweek/services"
+	_ "firstweek/models"
+	"firstweek/services"
 )
-
-// DB Db数据库连接池
-var DB *sql.DB
 
 func main() {
 	err := InitDB()
@@ -15,11 +11,9 @@ func main() {
 		panic(err)
 	}
 
-	data := services.WorkQueryOne()
-	fmt.Println(string(data))
+	services.WorkQueryOne()
 	//services.WorkQuery()
 	//services.WorkInsertUser()
 	//services.WorkDeleteUser()
-
-	defer DB.Close()
+	//defer DB.Close()
 }
