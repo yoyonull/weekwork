@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	v1 "kdemo/api/helloworld/v1"
-	"kdemo/internal/biz"
+	v1 "thirdweek/api/helloworld/v1"
+	"thirdweek/internal/biz"
 )
 
 // GreeterService is a greeter service.

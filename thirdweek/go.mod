@@ -1,4 +1,4 @@
-module kdemo
+module thirdweek
 
 go 1.17
 

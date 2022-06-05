@@ -9,11 +9,11 @@ package main
 import (
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/log"
-	"kdemo/internal/biz"
-	"kdemo/internal/conf"
-	"kdemo/internal/data"
-	"kdemo/internal/server"
-	"kdemo/internal/service"
+	"thirdweek/internal/biz"
+	"thirdweek/internal/conf"
+	"thirdweek/internal/data"
+	"thirdweek/internal/server"
+	"thirdweek/internal/service"
 )
 
 // Injectors from wire.go:

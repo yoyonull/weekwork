@@ -4,9 +4,9 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/go-kratos/kratos/v2/middleware/recovery"
 	"github.com/go-kratos/kratos/v2/transport/http"
-	v1 "kdemo/api/helloworld/v1"
-	"kdemo/internal/conf"
-	"kdemo/internal/service"
+	v1 "thirdweek/api/helloworld/v1"
+	"thirdweek/internal/conf"
+	"thirdweek/internal/service"
 )
 
 // NewHTTPServer new a HTTP server.

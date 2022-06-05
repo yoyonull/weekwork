@@ -3,7 +3,7 @@ package data
 import (
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/google/wire"
-	"kdemo/internal/conf"
+	"thirdweek/internal/conf"
 )
 
 // ProviderSet is data providers.
